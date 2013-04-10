@@ -195,6 +195,7 @@ add_action("wp_head","github_add_scripts");
 	
 function github_add_scripts() {
 	echo '<link rel="stylesheet" href="' . plugins_url("/css/github_wordpress_widget.css", __FILE__ ) . '" />';
-	echo '<script src="http://code.jquery.com/jquery-latest.js"></script>';
+    echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>';
+;
 }
 ?>
